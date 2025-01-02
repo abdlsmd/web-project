@@ -1,0 +1,138 @@
+
+.formDecor{
+    padding: 100px;
+    margin-left: 500px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.divStyle{
+    /* d-flex  */
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    justify-content: center ;
+    align-items :center ;
+    font-size: vh-200;
+}
+
+.imgBox{
+  width: 100%;
+  height: 100%;
+  margin-top: -20px;
+  opacity: 20;
+
+}
+
+.mainDiv{
+    position: absolute;
+    margin-top: -29%;
+    align-content: center;
+     /* top : 45%; */
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+
+ 
+}
+
+.signupheading{
+    font-weight: bold;
+    color: white;
+    padding-top: -10%;
+    margin: 0;
+    padding-bottom: 14px;
+
+}
+
+.RegBtn{
+    background-color: #FC46AA;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    height: 34px;
+}
+
+.RegBtn:hover{
+    background-color: #770737
+}
+
+input[type="text"],  select{
+    width: 60%;
+    height: 34px;
+    background-color: white;
+    border: none
+}
+
+input[type="password"]{
+    padding-left: 20px;
+    border: none;
+    width: 57%;
+    height: 34px;
+    background-color: white;
+}
+
+.eyebtn{
+    border: none;
+    height: 34px;
+    background-color: white;
+}
+
+.labelName{
+    padding: 9px;
+    font-size: 19px;
+    color: white;
+    word-spacing: 9px;
+    align-content: left;
+    /* background-color: blue; */
+}
+
+h6{
+    color: white;
+}
+
+.inputError {
+    border: 2px solid red;
+    
+}
+
+.errorText{
+    color: red;
+    font-size: 12px;
+}
+
+.SignUpPassOptions{
+    color: white;
+    /* background-color: black; */
+    border: none;
+    align-content: center;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+
+.SignUpPassOptions ul{
+    list-style-type: none;
+  
+}
+
+.SignUpPassOptions li{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+
+}
+
+.SignUpPassOptions li span {
+    margin-left: 10px;
+    font-size: medium;  
+}

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in width/height calculations */
+}
+
+.CEinputGroup {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.CEdivStyle {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%; /* Fixed the font-size issue */
+}
+
+.CEimgBox {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    margin-top: 0; /* Removed negative margin */
+    opacity: 0.2; /* Corrected opacity value */
+}
+
+.CEmainDiv {
+    position: relative;
+    margin: 0 auto; /* Centers the element */
+    left: 50%;
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 100%; /* Prevents overflow */
+    height: auto;
+    transform: translate(-50%, 0); /* Centers horizontally */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden; /* Ensures no overflow issues */
+}
+
+.CEheading {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+.CEBtn {
+    background-color: #FC46AA;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%; /* Adjusted for better alignment */
+    height: 40px;
+}
+
+.CEBtn:hover {
+    background-color: #770737;
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="time"] {
+    width: 100%; /* Adjusted width for alignment */
+    max-width: 100%;
+    height: 34px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+}
+
+.CElabelName {
+    width: 20%;
+    padding: 5px;
+    font-size: 19px;
+    color: white;
+    word-spacing: 9px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+.inputError {
+    border: 2px solid red;
+}
+
+.errorText {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    left: 25%;
+    top: 70%; /* Fixed missing semicolon */
+}

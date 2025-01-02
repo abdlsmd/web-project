@@ -1,0 +1,14 @@
+
+.SRdiv{
+   /* margin-left : 50%; */
+    /* d-flex  */
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    justify-content: center ;
+    align-items :center ;
+    font-size: vh-200;
+    background-color: blueviolet;
+
+}
+

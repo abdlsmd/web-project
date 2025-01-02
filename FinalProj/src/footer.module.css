@@ -1,0 +1,52 @@
+
+
+.footer{
+    background-color: black;
+    padding:  20px;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container p{
+    color: white
+}
+
+footer nav a{
+    color: rgb(191, 179, 179);
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+.socialIcons{
+    
+    margin-top: 10px;
+    display: flex;
+}
+
+.iconsLine{
+    padding: 6px
+}
+
+.socialIcons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.socialIcons a:hover{
+    color:  #fa3fa6;
+}

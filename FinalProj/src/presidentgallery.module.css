@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, html {
+    height: 100%;
+    width:100%
+}
+
+
+.GalleryImages{
+    width: 200px; 
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.mainGalleryCon{
+    background-color:rgb(184, 180, 180);
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+
+.imageContainer{
+    /* background-color: #FC46AA; */
+    background-color: white;
+    width: 240px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.DownloadLink, .DeleteButton{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FC46AA;
+    border: none
+    /* border: 5px solid black; */
+}
+
+.DownloadLink:hover, .DeleteButton:hover{
+    text-decoration: none;
+    background-color: #770737;
+    color: white
+}
+
+
+.GalleryUploadBtn, .DownloadAllBtn{
+        border-radius: 6px;
+        background-color: #FC46AA;
+        color: white;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 100%;
+        height: 34px;
+        margin-top: 10px;
+        cursor: pointer;  
+        padding: 5px;
+}
+
+.GalleryUploadBtn:hover, .DownloadAllBtn:hover{
+    background-color: #770737
+}
+    
+
+.GalleryInputBtn{
+    /* padding-top: 3%; */
+    margin-left: 10px;
+}
+
+.GalleryInputBtn:hover{
+    cursor: pointer;
+}
+
+
+.GalleryContainer{
+    background-color: rgba(0, 0,0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.actionButtons{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+   
+}
